@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, partner1, partner2, partner3, partner4, partner5, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Early Access",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "with HLO ID you can get quick and zippy access to all your supported apps, still what's heasitating you? Create your account now!",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Exclusive Perks",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Upon creating HLO ID, users will be rewarded with an exclusive bounty. Wasn't that satisfying enough? Yes! Then go create your HLO ID and grab them all.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Community",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "'We grow together in our community.' Each and every user means a lot to our company. We are eager and happy to have all of you on board with us in this journey towards success.",
   },
 ];
 
@@ -180,18 +180,22 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: partner1,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: partner2,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: partner3,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: partner4,
+  },
+  {
+    id: "client-5",
+    logo: partner5,
   },
 ];

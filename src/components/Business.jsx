@@ -22,13 +22,10 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Hlo ID for business, <br className="sm:block hidden" /> Developement and Personal
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      Creating HLO ID is an absolutely quick process. Just click here to create one and get started. You shall use it in all applications from HLO and also extend it's availability with games and apps of partners.
       </p>
 
       <Button styles={`mt-10`} />
