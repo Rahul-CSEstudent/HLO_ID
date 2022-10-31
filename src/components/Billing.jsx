@@ -1,10 +1,10 @@
-import { apple, mob, google, privacynavc } from "../assets";
+import { apple, mob, google, privacynavc, privacy } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={mob} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={privacy} alt="billing" className="w-[90%] h-[90%] relative rounded-2xl z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -14,7 +14,7 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-         <img src={privacynavc} alt="privacynavc" className="w-[50px] h-[50px] object-contain" /> your Privacy
+       your Privacy
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       'Our users safety is our utmost priority'.<br className="sm:block hidden" /> 

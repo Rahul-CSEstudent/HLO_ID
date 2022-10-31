@@ -17,6 +17,7 @@ import close from "./close.svg";
 import google from "./google.svg";
 import smartphone from "./smartphone.png";
 import apple from "./apple.svg";
+import multiplatform from "./multiplatform.png";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
@@ -48,6 +49,7 @@ export {
   robot,
   eye,
   send,
+  multiplatform,
   shield,
   star,
   menu,

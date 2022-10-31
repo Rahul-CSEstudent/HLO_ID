@@ -1,4 +1,4 @@
-import { smartphone } from "../assets";
+import { multiplatform, smartphone } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -10,15 +10,20 @@ const CardDeal = () => (
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      Multi-platform
+We additionally concentrate on the convenience of our users. Thus, HLO works on different platforms such as:
+<ul>
+<li>* iOS</li>
+<li>* Android</li>
+<li>* Web application</li>
+</ul>
       </p>
 
       <Button styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={smartphone} alt="billing" className="w-[90%] h-[90%]" />
+      <img src={multiplatform} alt="billing" className="w-[90%] h-[90%] rounded-2xl" />
     </div>
   </section>
 );
